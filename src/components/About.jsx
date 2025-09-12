@@ -39,7 +39,7 @@ export default function About() {
         {/* Image */}
         <div className=" w-80  mx-auto ">
           <img
-            src="../myphoto.jpg"
+            src="/myphoto.jpg"
             alt="Yogesh"
             className=" w-full h-auto rounded-lg grayscale hover:grayscale-0 hover:scale-105 transform transition duration-300 ease-in-out brightness-125"
           />

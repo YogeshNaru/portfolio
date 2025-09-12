@@ -9,13 +9,8 @@ export default function Navbar() {
     <nav className="fixed top-0 inset-x-0 bg-[#0a192f] shadow-lg z-50">
       <div className="max-w-7xl mx-auto flex items-center justify-between px-6 sm:px-10 h-16">
         {/* Logo */}
-        <a href="/" className="inline-block">
-          <img
-            src="/android-chrome-512x512.png"
-            alt="logo image"
-            width={40}
-            height={40}
-          />
+        <a href="/portfolio" className="inline-block">
+          <img src="/logo.png" alt="logo image" width={40} height={40} />
         </a>
 
         {/* Desktop Menu */}
