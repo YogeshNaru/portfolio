@@ -1,6 +1,9 @@
 export default function Hero() {
   return (
-    <section id="Hero" className=" px-6 sm:px-12  mb-30 lg:px-40 pb-10  mb-30">
+    <section
+      id="Hero"
+      className="  px-6 sm:px-12  mb-30 lg:px-40 pb-10   mb-30"
+    >
       <div>
         <h3 className="mt-20 text-[#64ffda] text-base sm:text-lg tracking-wide font-mono font-thin text-center lg:text-left pt-15">
           Hi, my name is

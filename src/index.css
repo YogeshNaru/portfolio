@@ -6,9 +6,18 @@ body {
 html {
   scroll-behavior: smooth;
 }
-
 section {
-  margin-top: 7rem;
+  margin-top: 5rem;
+}
+
+#Hero {
+  margin-top: 7rem !important;
+}
+
+@media (max-width: 400px) {
+  #Hero {
+    margin-top: 12rem !important;
+  }
 }
 
 button {
