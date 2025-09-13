@@ -10,7 +10,12 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto flex items-center justify-between px-6 sm:px-10 h-16">
         {/* Logo */}
         <a href="/portfolio" className="inline-block">
-          <img src="/logo.png" alt="logo image" width={40} height={40} />
+          <img
+            src={`${import.meta.env.BASE_URL}logo.png`}
+            alt="logo image"
+            width={40}
+            height={40}
+          />
         </a>
 
         {/* Desktop Menu */}
@@ -41,7 +46,11 @@ export default function Navbar() {
               </a>
             </li>
           </ol>
-          <a href="/Resume.pdf" target="_blank" rel="noopener noreferrer">
+          <a
+            href={`${import.meta.env.BASE_URL}Resume.pdf`}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <button className=" text-sm border border-[#64ffda] text-[#64ffda] px-4 py-2 rounded transform transition duration-300 ease-in-out hover:scale-105 hover:bg-[#64ffda] hover:text-[#0a192f]  ">
               Resume
             </button>
@@ -90,7 +99,11 @@ export default function Navbar() {
               </a>
             </li>
           </ol>
-          <a href="/Resume.pdf" target="_blank" rel="noopener noreferrer">
+          <a
+            href={`${import.meta.env.BASE_URL}Resume.pdf`}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <button className=" mt-4  w-full text-sm border border-[#64ffda] text-[#64ffda] px-4 py-2 rounded transform transition duration-300 ease-in-out hover:scale-105 hover:bg-[#64ffda] hover:text-[#0a192f]">
               Resume
             </button>

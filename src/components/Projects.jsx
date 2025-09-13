@@ -20,12 +20,12 @@ export default function Projects() {
         <div className="relative w-full md:w-1/2 flex justify-center">
           <div className="relative w-full max-w-md">
             <img
-              src="/farhomesHome.png"
+              src={`${import.meta.env.BASE_URL}farhomesHome.png`}
               alt="project-image"
               className="rounded-xl w-full transition-opacity duration-300 hover:opacity-100"
             />
             <img
-              src="/farhomes.png"
+              src={`${import.meta.env.BASE_URL}farhomes.png`}
               alt="project-image"
               className="rounded-xl w-full absolute top-0 left-0 transition-opacity duration-300 hover:opacity-0"
             />
@@ -106,12 +106,12 @@ export default function Projects() {
         <div className="relative w-full md:w-1/2 order-1 md:order-2 flex justify-center">
           <div className="relative w-full max-w-md">
             <img
-              src="/weathercold.png"
+              src={`${import.meta.env.BASE_URL}weathercold.png`}
               alt="project-image"
               className="rounded-xl w-full transition-opacity duration-300 hover:opacity-100"
             />
             <img
-              src="/weatherhot.png"
+              src={`${import.meta.env.BASE_URL}weatherhot.png`}
               alt="project-image"
               className="rounded-xl w-full absolute top-0 left-0 transition-opacity duration-300 hover:opacity-0"
             />
