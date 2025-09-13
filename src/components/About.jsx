@@ -1,6 +1,6 @@
 export default function About() {
   return (
-    <section id="About" className="px-6 sm:px-12 lg:px-40 py-30">
+    <section id="About" className=" px-6 sm:px-12 lg:px-40 py-30">
       {/* Heading */}
       <div className="flex items-center mb-10">
         <span className="text-[#64ffda] mr-2 text-xl sm:text-2xl font-light">
