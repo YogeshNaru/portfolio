@@ -68,7 +68,7 @@ export default function Projects() {
         </div>
       </div>
 
-      {/* second Project */}
+      {/* second Project added */}
       <div className="flex flex-col md:flex-row items-center gap-8 mb-16">
         {/* Text first on desktop */}
         <div className="w-full md:w-1/2 order-2 md:order-1">
