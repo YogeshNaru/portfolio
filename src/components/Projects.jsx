@@ -68,7 +68,62 @@ export default function Projects() {
         </div>
       </div>
 
-      {/* Second Project */}
+      {/* second Project */}
+      <div className="flex flex-col md:flex-row items-center gap-8 mb-16">
+        {/* Text first on desktop */}
+        <div className="w-full md:w-1/2 order-2 md:order-1">
+          <h1 className="text-[#64ffda] text-lg sm:text-xl font-mono font-thin mb-2">
+            Project
+          </h1>
+          <h2 className="font-medium text-2xl sm:text-3xl tracking-wide mb-4">
+            Allora Chat App
+          </h2>
+          <p className="p-4 rounded-md bg-[#112240] text-[#ccd6f699] text-base sm:text-lg leading-relaxed mb-4">
+            A full-stack real-time personal chat web-app built with{" "}
+            <span className="text-[#64ffda]">
+              {" "}
+              React, TailwindCSS, Node.js, Express, MongoDB, Socket.io{" "}
+            </span>{" "}
+            and <span className="text-[#64ffda]">JWT authentication. </span>
+            Users can signup, login and chat with all other registered users in
+            real-time. Fully responsive for desktop + mobile.
+          </p>
+          <div className="flex items-center space-x-6">
+            <a
+              href="https://github.com/YogeshNaru/Allora-chat-Fullstack"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i class="devicon-github-original text-3xl sm:text-4xl"></i>
+            </a>
+            <a
+              href="https://allora-chat.vercel.app"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <LaunchIcon sx={{ fontSize: 36 }} />
+            </a>
+          </div>
+        </div>
+
+        {/* Images */}
+        <div className="relative w-full md:w-1/2  order-1 md:order-2 flex justify-center">
+          <div className="relative w-full max-w-md">
+            <img
+              src={`${import.meta.env.BASE_URL}allorahome.png`}
+              alt="project-image"
+              className="rounded-xl w-full md:h-[300px]   transition-opacity duration-300 hover:opacity-100"
+            />
+            <img
+              src={`${import.meta.env.BASE_URL}alloradesktop.png`}
+              alt="project-image"
+              className="rounded-xl w-full md:h-[300px]  absolute top-0 left-0 transition-opacity duration-300 hover:opacity-0"
+            />
+          </div>
+        </div>
+      </div>
+
+      {/* third Project */}
       <div className="flex flex-col md:flex-row items-center gap-8 mb-16">
         {/* Text first on desktop */}
         <div className="w-full md:w-1/2 order-2 md:order-1">
@@ -103,7 +158,7 @@ export default function Projects() {
         </div>
 
         {/* Images */}
-        <div className="relative w-full md:w-1/2 order-1 md:order-2 flex justify-center">
+        <div className="relative w-full md:w-1/2 flex justify-center">
           <div className="relative w-full max-w-md">
             <img
               src={`${import.meta.env.BASE_URL}weathercold.png`}
