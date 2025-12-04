@@ -9,7 +9,7 @@ export default function Navbar() {
     <nav className="fixed top-0 inset-x-0 bg-[#0a192f] shadow-lg z-50">
       <div className="max-w-7xl mx-auto flex items-center justify-between px-6 sm:px-10 h-16">
         {/* Logo */}
-        <a href="/portfolio" className="inline-block">
+        <a href="/portfolio/" className="inline-block">
           <img
             src={`${import.meta.env.BASE_URL}logo.png`}
             alt="logo image"
@@ -47,7 +47,7 @@ export default function Navbar() {
             </li>
           </ol>
           <a
-            href={`${import.meta.env.BASE_URL}Resume.pdf`}
+            href="/portfolio/YogeshNaru_resume.pdf"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -100,7 +100,7 @@ export default function Navbar() {
             </li>
           </ol>
           <a
-            href={`${import.meta.env.BASE_URL}Resume.pdf`}
+            href={`${import.meta.env.BASE_URL}/YogeshNaru_resume.pdf`}
             target="_blank"
             rel="noopener noreferrer"
           >
